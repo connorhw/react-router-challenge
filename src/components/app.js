@@ -8,7 +8,7 @@ export default function App(props) {
             {/* This should only show up on /about/foo, /about/bar, or /about/foo/bar */}
             {/*<AboutMenu />*/}
             <Route 
-                exact path='/about/foo'
+                path='/about'
                 component={AboutMenu}
             />
         </div>
